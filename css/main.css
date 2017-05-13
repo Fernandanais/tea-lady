@@ -1,13 +1,16 @@
 /* Escribe acá tus estilos*/
 *{
 	font-family: 'Josefin Sans', sans-serif;
-	margin: 0px;
+	
 	color: #A52A2A;
 
 }
 body{
 	background-color: #A52A2A;
 	background-image: url(../img/te-header.jpg);
+	margin-right: 10%;
+	margin-left: 10%
+
 }
 header{
 	text-align: center;
@@ -17,18 +20,57 @@ header{
  h1{
 	font-size: 50px;
 	color: #A52A2A;
-	text-shadow: -6px 6px 26px #000 solid;
+	text-shadow: -16px 16px 36px #FF8C00;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-top: 150px;
+
+}
+p{
+	font-size: 22px;
 }
 
 #formulario{
-	text-align: left;
-	margin-top: 20px;
+	margin-top: -100px;
 	font-size: 18px;
-	background-color: #DEB887;
-	padding: 20px;
-	
+	background-color: rgba(222,184,135, 0.9);
+	/*background-color: #DEB887;*/
+	padding: 20px 20px 70px 30px;
+		
 }
 
+input{
+	display: block;
+	width: 80%;
+	padding: 5px;
+	border-color: #A52A2A;
+	border-radius: 10px;
+	font-size: 18px;
+}
 
+select{
+	width: 67%;
+	padding: 4px;
+	border-color: #A52A2A;
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: #DAA520;
+}
+button{
+	width: 20%;
+	padding: 5px;
+	border-color: #A52A2A;
+	border-radius: 10px;
+	font-size: 18px;
+	float: right;
+	background-color: #DAA520;
+
+
+}
+
+button:hover{
+	border-color: #DAA520;
+	color: #DAA520;
+	background-color: #A52A2A;
+}
 
 
